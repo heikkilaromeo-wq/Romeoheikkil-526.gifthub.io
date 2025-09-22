@@ -17,7 +17,7 @@ body{
   color: var(--text);
 }
 
-/* Top bar */
+
 .topbar{
   position: sticky;
   top: 0;
@@ -53,14 +53,14 @@ body{
 .nav__link:hover,
 .nav__link.is-active{ color: var(--text); }
 
-/* Layout */
+
 .wrap{
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 18px;
 }
 
-/* Hero */
+
 .hero{
   background: var(--panel);
   box-shadow: var(--shadow);
@@ -85,15 +85,15 @@ body{
   line-height: 1.7;
 }
 .hero__image img {
-  max-width: 300px; /* voit vaihtaa esim. 250px, 200px */
-  height: auto;     /* pitää mittasuhteet kunnossa */
+  max-width: 300px; 
+  height: auto;     
   border-radius: 14px;
   box-shadow: var(--shadow);
 }
 
 }
 
-/* Responsive */
+
 @media (max-width: 900px){
   .hero{
     grid-template-columns: 1fr;
@@ -103,3 +103,4 @@ body{
     margin-top: 20px;
   }
 }
+
